@@ -1,0 +1,1029 @@
+/* =========default====css */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.index-page {
+    font-family: 'Encode Sans', sans-serif;
+    color: #737373;
+    
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+a,
+figure,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+h1 {
+    font-size: 33px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 29px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p {
+    color: #737373;
+    font-size: 16px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.card {
+    box-shadow: var(--shadow);
+}
+
+/* ==========default======css===end */
+
+
+/* =====root=====css */
+:root {
+    --primary-text-color: #f10e7a;
+    --secondary-text-color: #597bbb;
+    --priamry-bg-color: #f10e7a;
+    --white-text-color: #fff;
+    --shadow: 0 3px 45px rgb(0 0 0 / 15%);
+}
+
+/* ========root========css */
+
+
+/* =====header=====start */
+
+.main_header .navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.main_header .navbar .navbar-nav .nav-item .nav-link {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.main_header .navbar .navbar-nav .nav-item .nav-link i {
+    color: var(--primary-text-color);
+    padding-right: 7px;
+    font-size: 18px;
+}
+
+/* =========header=====end */
+
+/* ========banner======start */
+.banner .banner-content .title-side h1 {
+    color: var(--secondary-text-color);
+    font-size: 32px;
+}
+
+.banner .banner-content .title-side .badge-title {
+    background-color: var(--priamry-bg-color);
+    color: var(--white-text-color);
+    display: inline-block;
+    border-radius: 4px;
+    padding: 1px 4px;
+    vertical-align: initial;
+    margin-top: 16px;
+    font-size: 25px;
+}
+
+
+.banner .banner-content .title-side .color-text {
+    color: var(--primary-text-color);
+    font-weight: 500;
+}
+
+.banner .banner-content .title-side .color-text img {
+    margin-left: -9px;
+    margin-top: -9px;
+}
+
+.banner .banner-content .title-side p {
+    color: #333333;
+    font-size: 19px;
+    margin-top: 9px;
+}
+
+.banner .banner-content figure img {
+    width: 100%;
+    display: inline-block;
+    margin-top: 22px;
+}
+
+.banner .dot-shape.right {
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    right: 0;
+    display: inline-block;
+    top: 35%;
+    transform: translateY(-35%);
+}
+
+.banner .dot-shape img {
+    width: 100%;
+    max-width: 67px;
+}
+
+
+.clix-logo.right {
+    position: absolute;
+    width: auto;
+    right: 0;
+    top: 10%;
+    transform: translateY(-10%);
+    display: inline-block;
+}
+
+.clix-logo img {
+    width: 100%;
+}
+
+
+.banner .form-box {
+    border-radius: 27px;
+    background-color: #fff;
+    padding: 35px;
+    border: none;
+}
+
+.banner .form-box .form-content p {
+    font-size: 16px;
+    color: #242424;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* ========banner============end */
+
+/* ========input==styeling */
+.form {
+    margin-top: 30px;
+}
+
+.input {
+    font-size: 15px;
+    color: #333333;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #3333334a;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    transition: all 0.3s linear;
+}
+
+.input:focus {
+    outline: none;
+    border-bottom: 1px solid var(--priamry-bg-color);
+}
+
+.input:focus-visible {
+    border: none;
+    border-bottom: 1px solid var(--priamry-bg-color);
+    outline: none;
+}
+
+.input::placeholder {
+    color: #3333338d;
+    font-weight: 500;
+}
+
+.banner .form-box .label-amount {
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.send-badge {
+    background-color: #e8edf3;
+    padding: 1px 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.primary-btn {
+    background-color: var(--priamry-bg-color);
+    color: var(--white-text-color);
+    border: none;
+    padding: 6px 30px;
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.primary-btn:focus {
+    outline: none;
+    border: none;
+}
+
+/* =======input=====styeling===== */
+
+/* ========overview==========start */
+
+.overview .overview-content h1 {
+    color: #000;
+    font-weight: 400;
+    position: relative;
+    padding-bottom: 16px;
+    font-size: 30px;
+}
+
+.overview .overview-content h2 {
+    color: #000;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.overview .overview-content h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 75px;
+    height: 3px;
+    background: linear-gradient(90deg, rgba(89, 123, 187, 1) 50%, rgba(241, 14, 122, 1) 50%);
+
+}
+
+.overview .overview-content p {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 40px;
+}
+
+.overview .overview-card-item figure {
+    width: 100%;
+    max-width: 175px;
+    display: inline-block;
+}
+
+.overview .overview-card-item figure img {
+    width: 100%;
+}
+
+.overview .overview-card-item h3 {
+    color: #333333;
+    font-size: 16px;
+    margin-top: 22px;
+    text-align: center;
+}
+
+/* ===========overview==========start */
+
+
+/* ===========Healthcare-Equipment-Loan===start */
+.Healthcare-Equipment-Loan {
+    margin-top: 120px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 121px;
+}
+
+.Healthcare-Equipment-Loan .Equipment-Loan-content h1 {
+    color: var(--white-text-color);
+    font-weight: 400;
+    position: relative;
+    padding-bottom: 16px;
+    font-size: 30px;
+}
+
+
+.Healthcare-Equipment-Loan .Equipment-Loan-content h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 75px;
+    height: 3px;
+    background: linear-gradient(90deg, rgba(89, 123, 187, 1) 50%, rgba(241, 14, 122, 1) 50%);
+
+}
+
+.Healthcare-Equipment-Loan .Equipment-Loan-content p {
+    color: var(--white-text-color);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 40px;
+}
+
+.Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 27px;
+    position: relative;
+}
+
+.Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure {
+    border: 1px solid #fff;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: -75px auto 0px auto;
+    position: relative;
+}
+
+.Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure::before {
+    content: "";
+    background-color: var(--priamry-bg-color);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 2px;
+    border-radius: 100%;
+    opacity: 0.5;
+    top: 12%;
+    transform: translateY(-12%);
+}
+
+.Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-1 {
+    background-color: #3a3591;
+}
+
+.Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-2 {
+    background-color: #58349e;
+}
+
+.Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-3 {
+    background-color: #5a359f;
+}
+
+.Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-4 {
+    background-color: #7235aa;
+}
+
+.Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner .content {
+    margin-top: 37px;
+    margin-bottom: 10px;
+}
+
+.Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner .content h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner .content p {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.border-row .text-center {
+    border-right: 1px solid #ffffff5c;
+    height: 55px;
+}
+
+.border-row .text-center:last-child {
+    border: none;
+}
+
+/* =========Healthcare-Equipment-Loan==========end */
+
+
+/* ===========various=====start */
+.Various-content h1 {
+    color: #000;
+    font-weight: 400;
+    position: relative;
+    padding-bottom: 16px;
+    font-size: 30px;
+}
+
+.Various-content h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 75px;
+    height: 3px;
+    background: linear-gradient(90deg, rgba(89, 123, 187, 1) 50%, rgba(241, 14, 122, 1) 50%);
+}
+
+.clix-logo.left {
+    position: absolute;
+    width: auto;
+    left: 0;
+    top: 0%;
+    transform: translateY(0);
+    display: inline-block;
+}
+
+.Various-Purposes .various-card {
+    border: 2px solid #ddd;
+    border-radius: 15px;
+}
+
+.Various-Purposes .various-inner-card {
+    background-color: #f8fbfe;
+    border-radius: 15px;
+    width: 100%;
+    height: 208px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Various-Purposes .various-card-content {
+    border-top: 2px solid #ddd;
+}
+
+.Various-Purposes .various-card-content p {
+    text-align: left;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.Various-Purposes .various-card-content a {
+    color: var(--secondary-text-color);
+}
+
+/* =======various===========end */
+
+
+/* ========eligibility========= */
+
+.eligibility {
+    margin-top: 120px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 190px;
+}
+
+.eligibility .eligibility-content h1 {
+    color: #000;
+    font-weight: 400;
+    position: relative;
+    padding-bottom: 16px;
+    font-size: 30px;
+}
+
+
+.eligibility .eligibility-content h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 75px;
+    height: 3px;
+    background: linear-gradient(90deg, rgba(89, 123, 187, 1) 50%, rgba(241, 14, 122, 1) 50%);
+
+}
+
+.eligibility .eligibility-content p {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 40px;
+}
+
+.defualt-side h4 {
+    color: var(--primary-text-color);
+    font-size: 22px;
+    position: relative;
+    padding-left: 13px; margin-bottom: 15px;
+}
+
+.defualt-side h3 {
+    color: var(--primary-text-color);
+    font-size: 19px;
+    position: relative;
+    padding-left: 13px;
+}
+
+.defualt-side h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 3px;
+    height: 25px;
+    background-color: var(--secondary-text-color);
+}
+.defualt-side h3::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    width: 2px;
+    height: 20px;
+    background-color: var(--secondary-text-color);
+    top: 3px;
+}
+
+.defualt-side .ul-listing {
+    color: #000;
+    margin: 10px 0;
+}
+
+.defualt-side .ul-listing li {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 13px;
+}
+
+.defualt-side .ul-listing li:last-child {
+    padding-bottom: 0px;
+}
+
+.defualt-side .ul-listing li i {
+    padding-right: 5px;
+    color: var(--primary-text-color);
+}
+
+.second-lsit {
+    margin-top: 40px;
+}
+
+.second-lsit .defualt-side p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 20px;
+}
+
+.right-side {
+    position: absolute;
+    top: 35%;
+    right: 0;
+}
+
+.badge-text {
+    background-color: #f5f5f5;
+    padding: 18px 15px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 35px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.eligibility .clix-logo.right {
+    position: absolute;
+    width: 145px;
+    right: 0;
+    top: 10%;
+    transform: translateY(-10%);
+    display: inline-block;
+}
+
+.defualt-side p {
+    color: #000;
+    padding-top: 22px;
+}
+
+.Need-To-Provide {
+    padding-top: 201px;
+}
+
+.Provide-content h1 {
+    color: #000;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 16px;
+    font-size: 28px;
+}
+
+.Provide-content p {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.provide-card {
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 45px rgb(0 0 0 / 15%);
+    padding: 20px 15px 0px 15px;
+    min-height: 286px;
+}
+
+.provide-card figure {
+    margin-top: 10px;
+}
+
+.provide-card-inner {
+    padding-top: 17px;
+}
+
+.provide-card .provide-card-inner h4 {
+    font-size: 14px;
+    color: #000;
+    padding-bottom: 12px;
+}
+
+.provide-card .provide-card-inner p {
+    font-size: 14px;
+}
+
+.Need-To-Provide .dot-shape.left {
+    position: absolute;
+    width: auto;
+    left: 0;
+    display: inline-block;
+    margin-top: 55px;
+}
+
+.Need-To-Provide .dot-shape img {
+    width: 100px
+}
+
+.card-text-bottom {
+    font-size: 14px;
+}
+
+/* ===========eligibility======= */
+
+
+/* ==========customer=======reivews */
+.customer-content h1 {
+    color: #000;
+    font-weight: 400;
+    position: relative;
+    padding-bottom: 16px;
+    font-size: 30px;
+}
+
+.customer-content h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 75px;
+    height: 3px;
+    background: linear-gradient(90deg, rgba(89, 123, 187, 1) 50%, rgba(241, 14, 122, 1) 50%);
+}
+
+.customer-slider .item-card {
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: left;
+    padding: 20px 20px;
+    border: 2px solid #f7f6f6f2; box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%); margin: 20px 0px;
+}
+
+.customer-slider .item-card ul li {
+    color: #ffd902;
+    padding-right: 5px;
+}
+
+.customer-slider .item-card ul li:last-child {
+    color: #ffd9023d;
+}
+
+.inner-content-reivews {
+    padding-top: 15px;
+}
+
+.inner-content-reivews h2 {
+    color: var(--primary-text-color);
+    font-size: 22px;
+}
+
+.inner-content-reivews p {
+    color: #000;
+    padding-top: 10px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    border-top: 1px solid #ddd;
+    padding-top: 17px; 
+}
+
+.user-description {
+    margin-left: 14px;
+}
+
+.user-description h2 {
+    font-size: 20px;
+    color: #000;
+}
+
+.user-description p {
+    color: #000;
+}
+
+
+
+
+
+
+
+.qoutes {
+    position: absolute;
+    top: -20px;
+    right: 36px;
+    z-index: 9999;
+}
+
+.qoutes img {
+    width: 100%;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--priamry-bg-color) !important;
+}
+
+.customer-slider.owl-theme .owl-nav {
+    margin-top: 0px !important;
+    width: 100%;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.owl-theme .owl-nav .owl-prev {
+    position: absolute;
+    left: -50px;
+    transform: translateX(-50%);
+}
+
+.owl-theme .owl-nav .owl-next {
+    position: absolute;
+    right: -66px;
+    transform: translateX(-66%);
+}
+
+.owl-theme .owl-nav .owl-next i {
+    font-size: 30px;
+}
+
+.owl-theme .owl-nav .owl-prev i {
+    font-size: 30px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: inherit !important;
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.owl-theme .owl-dots {
+    margin-top: 35px;
+}
+
+/* ===========customer===reivews=== */
+
+/* ====apply===box */
+.Apply-box .banner-image-apply img {
+    border-radius: 10px;
+}
+
+/* ===apply==box */
+
+
+/* ===========footer======start*/
+.footer .footer-content .social-links ul li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.footer .footer-content .social-links ul li a {
+    font-size: 18px;
+}
+
+.footer .footer-content .social-links ul li:last-child {
+    padding-right: 0px;
+}
+
+.footer .footer-content .social-links ul li:nth-child(1) a {
+    color: #4476a7;
+}
+
+.footer .footer-content .social-links ul li:nth-child(2) a {
+    color: #485996;
+}
+
+.footer .footer-content .social-links ul li:nth-child(3) a {
+    color: #5d9ef0
+}
+
+.footer .footer-content .social-links ul li:nth-child(4) a {
+    color: #cc4072
+}
+
+.footer .footer-content .social-links ul li:nth-child(5) a {
+    color: #56ab40
+}
+
+.copyright p{
+    font-size: 14px;
+}
+
+.links ul li {
+    display: inline-block;
+    border-right: 1px solid #00000063;
+    padding-right: 12px;
+    padding-left: 12px;
+    line-height: 16px;
+}
+
+.links ul li a{
+    font-size: 14px;
+}
+
+.links ul li:first-child{
+    padding-left: 0px;
+}
+
+.links ul li:last-child{
+    border-right: none;
+    padding-right: 0px;
+}
+/* ===============footer=======end */
+
+/* ====keyframes===animation */
+/*PRELOADING------------ */
+
+.right-side img{
+    -webkit-animation: moveBounce 9s linear infinite;
+  animation: moveBounce 9s linear infinite;
+}
+
+.overview-card-item{
+    -webkit-animation: moveBounce 9s linear infinite;
+  animation: moveBounce 9s linear infinite;
+}
+
+.form-box{
+    -webkit-animation: moveBounce 9s linear infinite;
+  animation: moveBounce 9s linear infinite;
+}
+
+@keyframes moveBounce {
+    0% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+  
+    50% {
+      -webkit-transform: translateY(50px);
+      transform: translateY(50px);
+    }
+  
+    100% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+  }
+
+
+/* ====keyframes===animation */
+
+
+
+.Equipment-Loan-content ul { display: flex;  justify-content: center;}
+.Equipment-Loan-content ul li {
+    font-size: 16px;
+    list-style: disc;
+    margin-right: 43px;
+    margin-top: 30px; color: #fff;
+}
+
+
+
+/* ==============Accordian========start */
+.vertical-tab-listing .question,
+.answer {
+	list-style-type: none;
+}
+
+.vertical-tab-listing .question {
+	padding: 0.5em 1em 0.5em 1em;
+	font-weight: bold;
+	position: relative;
+    
+}
+.vertical-tab-listing ul div {
+    margin-bottom: 10px;
+    box-shadow: -1px 2px 15px 2px #c3c3c380;
+    transition: all 0.3s ease;
+}
+
+
+.vertical-tab-listing .question:hover {
+	cursor: pointer;
+}
+
+.vertical-tab-listing .answer {
+    display: none;
+    padding: 10px 0px 15px 26px;
+}
+
+.vertical-tab-listing .expand-bar {
+	position: absolute;
+	top: 50%;
+	right: 1em;
+	transition: all 0.5s ease;
+}
+
+.vertical-tab-listing .expand-bar,
+.expand-bar:after {
+	width: 15px;
+	height: 2px;
+	background-color:var(--priamry-bg-color);
+}
+
+.vertical-tab-listing .expand-bar:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform: rotate(90deg);
+	transition: all 0.5s ease;
+}
+
+.open {
+	border-bottom: none;
+}
+
+.open .expand-bar {
+	transform: rotate(180deg);
+}
+
+.open .expand-bar:after {
+	transform: rotate(180deg);
+}
+/* ============Accordian=====================end */

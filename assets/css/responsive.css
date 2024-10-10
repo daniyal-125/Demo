@@ -1,0 +1,240 @@
+@media screen and (min-width: 1500px) and (max-width: 1600px)  {
+
+    .eligibility {
+        margin-top: 120px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 320px;
+    }
+
+}
+
+
+
+@media (max-width: 991.98px) {
+    .pt-100 {
+        padding-top: 72px;
+    }
+
+    .clix-logo.right {
+        top: 4%;
+        transform: translateY(-4%);
+    }
+
+    .overview .overview-card-item figure {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .overview .row .overview-card-item {
+        margin-bottom: 20px;
+    }
+
+    .Healthcare-Equipment-Loan .row .Healthcare-Equipment-Loan-card {
+        margin-bottom: 67px;
+    }
+
+    .Healthcare-Equipment-Loan .row:nth-child(3) {
+        padding-top: 0px;
+    }
+
+    .Healthcare-Equipment-Loan .row:nth-child(2) {
+        margin-top: 30px;
+    }
+
+    .Healthcare-Equipment-Loan .row:nth-child(4) {
+        padding-top: 0px;
+    }
+
+
+    .Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-1,
+    .Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-2,
+    .Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-3,
+    .Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-4 {
+        background-color: #2f61ad;
+    }
+
+    .eligibility.pt-100 {
+        padding-top: 170px;
+    }
+
+    .eligibility {
+        margin-top: 0px;
+        padding-bottom: 90px;
+    }
+
+    .inner .right-side {
+        position: inherit;
+    }
+    .Need-To-Provide {
+        padding-top: 88px;
+    }
+
+    .footer {
+        padding-bottom: 20px;
+    }
+
+    .Need-To-Provide .row:nth-child(3){
+        padding-top: 0px;
+    }
+
+    .provide-card {
+        padding: 20px 15px 43px 15px;
+        min-height: 286px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .pt-100 {
+        padding-top: 72px;
+    }
+
+    .clix-logo.right {
+        top: 4%;
+        transform: translateY(-4%);
+    }
+
+    .overview .overview-card-item figure {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .overview .row .overview-card-item {
+        margin-bottom: 20px;
+    }
+
+    .Healthcare-Equipment-Loan .row .Healthcare-Equipment-Loan-card {
+        margin-bottom: 67px;
+    }
+
+    .Healthcare-Equipment-Loan .row:nth-child(3) {
+        padding-top: 0px;
+    }
+
+    .Healthcare-Equipment-Loan .row:nth-child(2) {
+        margin-top: 30px;
+    }
+
+    .Healthcare-Equipment-Loan .row:nth-child(4) {
+        padding-top: 0px;
+    }
+
+
+    .Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-1,
+    .Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-2,
+    .Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-3,
+    .Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-4 {
+        background-color: #2f61ad;
+    }
+
+    .eligibility.pt-100 {
+        padding-top: 170px;
+    }
+
+    .eligibility {
+        margin-top: 0px;
+        padding-bottom: 90px;
+    }
+
+    .inner .right-side {
+        position: inherit;
+    }
+    .Need-To-Provide {
+        padding-top: 88px;
+    }
+
+    .footer {
+        padding-bottom: 20px;
+    }
+
+    .Need-To-Provide .row:nth-child(3){
+        padding-top: 0px;
+    }
+
+    .provide-card {
+        padding: 20px 15px 43px 15px;
+        min-height: auto;
+    }
+}
+
+
+
+@media (max-width: 575.98px) {
+    .pt-100 {
+        padding-top: 72px;
+    }
+
+    .clix-logo.right {
+        top: 4%;
+        transform: translateY(-4%);
+    }
+
+    .overview .overview-card-item figure {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .overview .row .overview-card-item {
+        margin-bottom: 20px;
+    }
+
+    .Healthcare-Equipment-Loan .row .Healthcare-Equipment-Loan-card {
+        margin-bottom: 67px;
+    }
+
+    .Healthcare-Equipment-Loan .row:nth-child(3) {
+        padding-top: 0px;
+    }
+
+    .Healthcare-Equipment-Loan .row:nth-child(2) {
+        margin-top: 30px;
+    }
+
+    .Healthcare-Equipment-Loan .row:nth-child(4) {
+        padding-top: 0px;
+    }
+
+    h1 {
+        font-size: 22px !important;
+    }
+
+    .Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-1,
+    .Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-2,
+    .Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-3,
+    .Healthcare-Equipment-Loan .Healthcare-Equipment-Loan-card .Healthcare-Equipment-Loan-inner figure.bg-4 {
+        background-color: #2f61ad;
+    }
+
+    .eligibility.pt-100 {
+        padding-top: 170px;
+    }
+
+    .eligibility {
+        margin-top: 0px;
+        padding-bottom: 150px;
+    }
+
+    .right-side {
+        position: inherit;
+    }
+    .Need-To-Provide {
+        padding-top: 88px;
+    }
+
+    .footer {
+        padding-bottom: 20px;
+    }
+
+    .Need-To-Provide .row:nth-child(3){
+        padding-top: 0px;
+    }
+
+    .provide-card {
+        padding: 20px 15px 43px 15px;
+        min-height: auto;
+    }
+    .second-list{
+        margin-top: 15px;
+    }
+}
